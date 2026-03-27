@@ -28,4 +28,5 @@ stdout.write('Média de consumo de combustivel em KM/l: $media \n');
 double? lucro = passageiro - (combustivel * 6.50);
 stdout.write('Seu lucro do dia foi de: $lucro \n');
 
+
 }
