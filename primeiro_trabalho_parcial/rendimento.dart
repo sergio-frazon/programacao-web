@@ -6,7 +6,6 @@ void main(){
   double? deposito = double.tryParse(stdin.readLineSync()!) ?? 0.0;
 
   double rendimento = deposito * 1.005;
-  stdout.write('Valor do rendimento após um mês: $rendimento \n');
+  stdout.write('Valor do rendimento após um mês é de: $rendimento \n');
 
-  
 }
